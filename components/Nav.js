@@ -85,34 +85,34 @@ export default function Nav() {
           </div>
           
         </div>
-        <div className="dark:bg-black duration-300">
+        <div className="dark:bg-black bg-slate-200 duration-300">
             <div
               className={`flex-1 border-t justify-self-center md:block md:pb-0 md:mt-0 ${
                 navbar ? "md:p-0 block" : "hidden"
               }`}
             >
               <ul className="h-screen p-2 md:h-auto items-center justify-center md:flex ">
-                <li className="text-lg mx-3 sm:text-slate-600 sm:dark:text-slate-400 hover:text-slate-800 md:hover:dark:text-slate-200 text-center hover:border-b hover:bg-indigo-500  border-green-400 py-4 md:py-0 md:hover:bg-transparent">
+                <li className="text-lg mx-3 text-slate-600 dark:text-white sm:text-slate-600 sm:dark:text-slate-100 md:hover:text-indigo-500 hover:text-slate-100 md:hover:dark:text-indigo-500 text-center hover:bg-indigo-500 rounded-md py-4 md:py-0 md:hover:bg-transparent">
                   <Link href="/" onClick={() => setNavbar(!navbar)}>
                     Home
                   </Link>
                 </li>
-                <li className="text-lg mx-3 sm:text-slate-600 sm:dark:text-slate-400 hover:text-slate-800 md:hover:dark:text-slate-200 text-center hover:border-b hover:bg-indigo-500  border-green-400 py-4 md:py-0 md:hover:bg-transparent">
+                <li className="text-lg mx-3 text-slate-600 dark:text-white sm:text-slate-600 sm:dark:text-slate-100 md:hover:text-indigo-500 hover:text-slate-100 md:hover:dark:text-indigo-500 text-center hover:bg-indigo-500 rounded-md py-4 md:py-0 md:hover:bg-transparent">
                   <Link href="/Pricing" onClick={() => setNavbar(!navbar)}>
                     Tutorials
                   </Link>
                 </li>
-                <li className="text-lg mx-3 sm:text-slate-600 sm:dark:text-slate-400 hover:text-slate-800 md:hover:dark:text-slate-200 text-center hover:border-b hover:bg-indigo-500  border-green-400 py-4 md:py-0 md:hover:bg-transparent">
+                <li className="text-lg mx-3 text-slate-600 dark:text-white sm:text-slate-600 sm:dark:text-slate-100 md:hover:text-indigo-500 hover:text-slate-100 md:hover:dark:text-indigo-500 text-center hover:bg-indigo-500 rounded-md py-4 md:py-0 md:hover:bg-transparent">
                   <Link href="/MyWork" onClick={() => setNavbar(!navbar)}>
                     Resources
                   </Link>
                 </li>
-                <li className="text-lg mx-3 sm:text-slate-600 sm:dark:text-slate-400 hover:text-slate-800 md:hover:dark:text-slate-200 text-center hover:border-b hover:bg-indigo-500  border-green-400 py-4 md:py-0 md:hover:bg-transparent">
+                <li className="text-lg mx-3 text-slate-600 dark:text-white sm:text-slate-600 sm:dark:text-slate-100 md:hover:text-indigo-500 hover:text-slate-100 md:hover:dark:text-indigo-500 text-center hover:bg-indigo-500 rounded-md py-4 md:py-0 md:hover:bg-transparent">
                   <Link href="/Blog" onClick={() => setNavbar(!navbar)}>
                     Training
                   </Link>
                 </li>
-                <li className="text-lg mx-3 sm:text-slate-600 sm:dark:text-slate-400 hover:text-slate-800 md:hover:dark:text-slate-200 text-center hover:border-b hover:bg-indigo-500  border-green-400 py-4 md:py-0 md:hover:bg-transparent">
+                <li className="text-lg mx-3 text-slate-600 dark:text-white sm:text-slate-600 sm:dark:text-slate-100 md:hover:text-indigo-500 hover:text-slate-100 md:hover:dark:text-indigo-500 text-center hover:bg-indigo-500 rounded-md py-4 md:py-0 md:hover:bg-transparent">
                   <Link href="/Contact" onClick={() => setNavbar(!navbar)}>
                     News
                   </Link>
