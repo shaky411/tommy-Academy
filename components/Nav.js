@@ -75,7 +75,7 @@ export default function Nav() {
           <FontAwesomeIcon icon={faInstagram} className="bg-white border-2 border-gray-600 dark:bg-gray-600 duration-300 rounded-full w-6 h-6 p-3 text-gray-600 dark:text-white"/>
           </div>
           <div className="hidden md:flex">
-          <Link href="/" className="text-slate-200 font-medium w-[150px] text-center mr-2 bg-indigo-500 hover:bg-indigo-800 duration-300 rounded-md px-4 py-3 shadow-md">
+          <Link href="/Training" className="text-slate-200 font-medium w-[150px] text-center mr-2 bg-indigo-500 hover:bg-indigo-800 duration-300 rounded-md px-4 py-3 shadow-md">
             Book Training
           </Link>
           <Link href="/" className="text-slate-200 font-med w-[150px] text-center bg-slate-500 hover:bg-slate-800 duration-300 rounded-md px-4 py-3 shadow-md">
@@ -108,13 +108,18 @@ export default function Nav() {
                   </Link>
                 </li>
                 <li className="text-lg mx-3 text-slate-600 dark:text-white sm:text-slate-600 sm:dark:text-slate-100 md:hover:text-indigo-500 hover:text-slate-100 md:hover:dark:text-indigo-500 text-center hover:bg-indigo-500 rounded-md py-4 md:py-0 md:hover:bg-transparent">
-                  <Link href="/Blog" onClick={() => setNavbar(!navbar)}>
+                  <Link href="/Training" onClick={() => setNavbar(!navbar)}>
                     Training
                   </Link>
                 </li>
                 <li className="text-lg mx-3 text-slate-600 dark:text-white sm:text-slate-600 sm:dark:text-slate-100 md:hover:text-indigo-500 hover:text-slate-100 md:hover:dark:text-indigo-500 text-center hover:bg-indigo-500 rounded-md py-4 md:py-0 md:hover:bg-transparent">
                   <Link href="/Contact" onClick={() => setNavbar(!navbar)}>
                     News
+                  </Link>
+                </li>
+                <li className="text-lg mx-3 text-slate-600 dark:text-white sm:text-slate-600 sm:dark:text-slate-100 md:hover:text-indigo-500 hover:text-slate-100 md:hover:dark:text-indigo-500 text-center hover:bg-indigo-500 rounded-md py-4 md:py-0 md:hover:bg-transparent">
+                  <Link href="/Contact" onClick={() => setNavbar(!navbar)}>
+                    FAQ
                   </Link>
                 </li>
                 <Providers>

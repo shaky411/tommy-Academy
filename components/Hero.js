@@ -5,7 +5,7 @@ import mainPic from "../assets/Copy of support5.jpg"
 
 export default function Hero() {
   return (
-    <div className="relative bg-slate-100 border-b dark:border-slate-700 dark:bg-slate-800 duration-300 flex flex-col-reverse px-10 mx-auto lg:block lg:flex-col lg:py-36 xl:py-38 md:px-8 md:max-w-full pt-10">
+    <div className="relative bg-slate-100 border-b dark:border-slate-700 dark:bg-gray-900 duration-300 flex flex-col-reverse px-10 mx-auto lg:block lg:flex-col lg:py-36 xl:py-38 md:px-8 md:max-w-full pt-10">
       <div className="z-0 flex justify-center h-full -mx-4 overflow-hidden lg:pt-24 lg:pb-16 lg:pr-8 xl:pr-10 lg:w-1/2 lg:absolute lg:justify-end lg:bottom-0 lg:left-0 lg:items-center">
         <Image
           src={mainPic}

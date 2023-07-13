@@ -22,7 +22,7 @@ import {
 
 export default function Features() {
   return (
-    <section className="bg-white dark:bg-gray-900 py-6">
+    <section className="bg-white dark:bg-gray-700 py-6">
       <div className="container px-6 py-10 mx-auto">
         <h1 className="text-2xl font-semibold font-sans text-center text-slate-500 capitalize md:text-4xl">
           explore our awesome <span className="text-indigo-500">Features</span>
@@ -188,7 +188,7 @@ export default function Features() {
             </span>
 
             <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
-              Current Roadmap
+               Roadmap
             </h1>
 
             <p className="text-gray-500 dark:text-gray-300">
