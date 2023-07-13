@@ -28,11 +28,7 @@ export default function Hero() {
              Academy
             </h2>
             <p className="text-base text-gray-700 dark:text-slate-200 md:text-lg">
-            Our goal is to provide our clients with high-quality and visually
-                appealing websites that not only look great but also effectively communicate their brand message and
-                values to their target audience. We understand the importance of having a strong online presence in
-                today's digital age, and we are dedicated to helping our clients achieve their online goals through our
-                expertise in web design and development.
+            Welcome to Framepoint Academy. Here you will find, video tutorials, downloadable resources such as web assets and all things Framepoint. Stay up to date with the latest features and keep track of our current roadmap as we work to make Framepoint the most complete, window quoting software on the market.
             </p>
           </div>
           <div className="flex">

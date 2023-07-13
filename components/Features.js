@@ -38,7 +38,7 @@ export default function Features() {
             </span>
 
             <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
-              TailwindCSS
+              Video Tutorials
             </h1>
 
             <p className="text-gray-500 dark:text-gray-300">
@@ -76,7 +76,7 @@ export default function Features() {
             </span>
 
             <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
-              NextJS
+              Guides
             </h1>
 
             <p className="text-gray-500 dark:text-gray-300">
@@ -113,7 +113,7 @@ export default function Features() {
             </span>
 
             <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
-              Simple & clean designs
+                Resources
             </h1>
 
             <p className="text-gray-500 dark:text-gray-300">
@@ -150,7 +150,7 @@ export default function Features() {
             </span>
 
             <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
-              Strapi
+              Latest Features
             </h1>
 
             <p className="text-gray-500 dark:text-gray-300">
@@ -188,7 +188,7 @@ export default function Features() {
             </span>
 
             <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
-              Zero Maintenance
+              Current Roadmap
             </h1>
 
             <p className="text-gray-500 dark:text-gray-300">
@@ -231,7 +231,7 @@ export default function Features() {
             </span>
 
             <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
-              Affordability
+              News
             </h1>
 
             <p className="text-gray-500 dark:text-gray-300">
