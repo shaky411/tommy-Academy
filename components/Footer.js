@@ -29,7 +29,7 @@ export default function Footer() {
           />{" "}
         </Link>
         <Link
-          href="https://www.linkedin.com/in/marcnorris1984"
+          href="https://www.linkedin.com"
           target="_blank"
           rel="noopener noreferrer nofollow"
         >
@@ -53,7 +53,7 @@ export default function Footer() {
       <div className="flex items-center justify-center">
         {/* <FontAwesomeIcon className="text-yellow-500 text-lg mr-1" icon={faLocationDot} /> */}
         <Link
-          href="https://goo.gl/maps/pGoQGpQAoPzZ8FKQ7"
+          href="https://www.tommytrinder.com"
           target="_blank"
           rel="noopener noreferrer nofollow"
           className="text-sm my-4 text-center text-gray-400"

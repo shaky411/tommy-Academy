@@ -25,7 +25,7 @@ export default function Features() {
     <section className="bg-slate-200 dark:bg-gray-700 py-6">
       <div className="container px-6 py-10 mx-auto">
         <h1 className="text-2xl font-semibold font-sans text-center text-slate-500 capitalize md:text-4xl">
-          Become a pro with <span className="text-indigo-500">Framepoint</span>
+          Become a pro with <span className="text-cyan-600">Framepoint</span>
         </h1>
 
         <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-16 md:grid-cols-2 xl:grid-cols-3">
