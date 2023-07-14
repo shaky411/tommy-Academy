@@ -22,17 +22,17 @@ import {
 
 export default function Features() {
   return (
-    <section className="bg-white dark:bg-gray-700 py-6">
+    <section className="bg-slate-200 dark:bg-gray-700 py-6">
       <div className="container px-6 py-10 mx-auto">
         <h1 className="text-2xl font-semibold font-sans text-center text-slate-500 capitalize md:text-4xl">
-          explore our awesome <span className="text-indigo-500">Features</span>
+          Become a pro with <span className="text-indigo-500">Framepoint</span>
         </h1>
 
         <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-16 md:grid-cols-2 xl:grid-cols-3">
 
 
           {/* Card-1 */}
-          <div className="flex flex-col items-center p-6 space-y-3 text-center bg-gray-100 border border-slate-200 dark:border-slate-700 hover:bg-slate-200 hover:dark:bg-gray-900 duration-300 rounded-xl dark:bg-gray-800">
+          <div className="flex flex-col items-center p-6 space-y-3 text-center bg-gray-100 border border-slate-200 dark:border-slate-700 hover:bg-slate-200 hover:border hover:border-gray-300 hover:dark:bg-gray-900 duration-300 rounded-xl dark:bg-gray-800">
           <span>
           <FontAwesomeIcon icon={faFile} className="bg-indigo-200 dark:bg-indigo-500 rounded-full w-6 h-6 p-3 text-indigo-500 dark:text-slate-200"/>
             </span>
