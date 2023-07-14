@@ -66,7 +66,7 @@ export default function Footer() {
           href="https://www.graygecko.co.uk"
           target="_blank"
           rel="noopener noreferrer nofollow"
-          className="text-sm text-center text-gray-500 hover:text-green-500 duration-300 mt-10"
+          className="text-sm text-center text-indigo-500 hover:text-green-500 duration-300 mt-10"
         >
           Site by <strong>GrayGecko</strong>
         </Link>
