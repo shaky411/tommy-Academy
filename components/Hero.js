@@ -5,7 +5,7 @@ import mainPic from "../assets/Copy of support5.jpg"
 
 export default function Hero() {
   return (
-    <div className="relative bg-gray-900 border-b dark:border-slate-700 dark:bg-gray-900 duration-300 flex flex-col-reverse px-10 mx-auto lg:block lg:flex-col lg:py-36 xl:py-38 md:px-8 md:max-w-full pt-10">
+    <div className="relative bg-[#062D3C] border-b dark:border-slate-700 dark:bg-gray-900 duration-300 flex flex-col-reverse px-10 mx-auto lg:block lg:flex-col lg:py-36 xl:py-38 md:px-8 md:max-w-full pt-10">
       <div className="z-0 flex justify-center h-full -mx-4 overflow-hidden lg:pt-24 lg:pb-16 lg:pr-8 xl:pr-10 lg:w-1/2 lg:absolute lg:justify-end lg:bottom-0 lg:left-0 lg:items-center">
         <Image
           src={mainPic}
@@ -21,10 +21,10 @@ export default function Hero() {
       <div className="relative flex justify-end max-w-xl mx-auto xl:pr-20 lg:max-w-screen-xl">
         <div className="mb-16 lg:pr-5 lg:max-w-lg lg:mb-0">
           <div className="max-w-xl mb-6">
-          <h2 className="max-w-lg mb-6 font-sans text-6xl sm:text-8xl font-bold tracking-tight text-gray-600 sm:leading-none">
+          <h2 className="max-w-lg mb-6 font-sans text-6xl sm:text-8xl font-bold tracking-tight text-green-400 sm:leading-none">
               Framepoint
             </h2>
-            <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-400 dark:text-gray-600 sm:text-4xl sm:leading-none">
+            <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-slate-400 dark:text-gray-600 sm:text-4xl sm:leading-none">
              Academy
             </h2>
             <p className="text-base text-gray-200 dark:text-slate-200 md:text-lg">
@@ -34,13 +34,13 @@ export default function Hero() {
           <div className="flex">
           <Link
                 href="/"
-                className="mr-2 w-full sm:w-[150px] inline-flex items-center justify-center h-11 px-4 font-medium tracking-wide text-slate-200 duration-300 rounded shadow-md bg-cyan-600 hover:bg-cyan-900 focus:shadow-outline focus:outline-none"
+                className="mr-2 w-full sm:w-[150px] inline-flex items-center justify-center h-11 px-4 font-bold tracking-wide text-slate-200 duration-300 rounded shadow-md bg-slate-500 hover:bg-slate-900 focus:shadow-outline focus:outline-none"
               >
                 Tutorials
               </Link>
               <Link
                 href="/"
-                className="w-full sm:w-[150px] inline-flex items-center justify-center h-11 px-4 font-medium tracking-wide text-slate-800 hover:text-slate-200 duration-300 rounded shadow-md bg-slate-400 hover:bg-slate-800 focus:shadow-outline focus:outline-none"
+                className="w-full sm:w-[150px] inline-flex items-center justify-center h-11 px-4 font-bold tracking-wide text-slate-800 hover:text-slate-200 duration-300 rounded shadow-md bg-green-400 hover:bg-green-900 focus:shadow-outline focus:outline-none"
               >
                 Resources
               </Link>

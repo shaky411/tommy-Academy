@@ -18,7 +18,7 @@ import {
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-gray-400 flex flex-col justify-center items-center h-30 shadow-t-lg text-lg p-20">
+    <footer className="bg-[#062D3C] text-gray-400 flex flex-col justify-center items-center h-30 shadow-t-lg text-lg p-20">
       <div className="">
         <Link
           href="/"
@@ -66,7 +66,7 @@ export default function Footer() {
           href="https://www.graygecko.co.uk"
           target="_blank"
           rel="noopener noreferrer nofollow"
-          className="text-sm text-center text-indigo-500 hover:text-green-500 duration-300 mt-10"
+          className="text-sm text-center text-green-400 hover:text-indigo-500 duration-300 mt-10"
         >
           Site by <strong>GrayGecko</strong>
         </Link>
