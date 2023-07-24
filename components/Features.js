@@ -10,7 +10,9 @@ import {
   faDatabase,
   faPaintRoller,
   faPoundSign,
-  faFile
+  faFile,
+  faVideo,
+  faNewspaper
 } from "@fortawesome/free-solid-svg-icons";
 
 import {
@@ -22,10 +24,10 @@ import {
 
 export default function Features() {
   return (
-    <section className="bg-slate-200 dark:bg-gray-700 py-6">
+    <section className="bg-slate-200 dark:bg-gray-700 py-6 lg:px-20 px-6">
       <div className="container px-6 py-10 mx-auto">
         <h1 className="text-2xl font-semibold font-sans text-center text-slate-500 capitalize md:text-4xl">
-          Become a pro with <span className="text-[#062D3C] font-bold">Framepoint®</span>
+          Become a pro with <span className="text-[#062D3C] dark:text-slate-200 font-bold">Framepoint®</span>
         </h1>
 
         <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-16 md:grid-cols-2 xl:grid-cols-3">
@@ -34,7 +36,7 @@ export default function Features() {
           {/* Card-1 */}
           <div className="flex flex-col items-center p-6 space-y-3 text-center bg-gray-100 border border-slate-200 dark:border-slate-700 hover:bg-slate-200 hover:border hover:border-gray-300 hover:dark:bg-gray-900 duration-300 rounded-xl dark:bg-gray-800">
           <span>
-          <FontAwesomeIcon icon={faFile} className="bg-indigo-200 dark:bg-indigo-500 rounded-full w-6 h-6 p-3 text-indigo-500 dark:text-slate-200"/>
+          <FontAwesomeIcon icon={faVideo} className="bg-indigo-200 dark:bg-indigo-500 rounded-full w-6 h-6 p-3 text-indigo-500 dark:text-slate-200"/>
             </span>
 
             <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
@@ -70,9 +72,9 @@ export default function Features() {
           </div>
 
           {/* Card-2 */}
-          <div className="flex flex-col items-center p-6 space-y-3 text-center bg-gray-100 border border-slate-200 dark:border-slate-700 hover:bg-slate-200 hover:dark:bg-gray-900 duration-300 rounded-xl dark:bg-gray-800">
+          <div className="flex flex-col items-center p-6 space-y-3 text-center bg-gray-100 border border-slate-200 dark:border-slate-700 hover:bg-slate-200 hover:border hover:border-gray-300 hover:dark:bg-gray-900 duration-300 rounded-xl dark:bg-gray-800">
             <span>
-              <FontAwesomeIcon icon={faCode} className="bg-indigo-200 dark:bg-indigo-500 rounded-full w-6 h-6 p-3 text-indigo-500 dark:text-slate-200"/>
+              <FontAwesomeIcon icon={faNewspaper} className="bg-indigo-200 dark:bg-indigo-500 rounded-full w-6 h-6 p-3 text-indigo-500 dark:text-slate-200"/>
             </span>
 
             <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
@@ -107,7 +109,7 @@ export default function Features() {
           </div>
 
             {/* Card-3 */}
-            <div className="flex flex-col items-center p-6 space-y-3 text-center bg-gray-100 border border-slate-200 dark:border-slate-700 hover:bg-slate-200 hover:dark:bg-gray-900 duration-300 rounded-xl dark:bg-gray-800">
+            <div className="flex flex-col items-center p-6 space-y-3 text-center bg-gray-100 border border-slate-200 dark:border-slate-700 hover:bg-slate-200 hover:border hover:border-gray-300 hover:dark:bg-gray-900 duration-300 rounded-xl dark:bg-gray-800">
             <span>
             <FontAwesomeIcon icon={faPaintRoller} className="bg-indigo-200 dark:bg-indigo-500 rounded-full w-6 h-6 p-3 text-indigo-500 dark:text-slate-200"/>
             </span>
@@ -144,7 +146,7 @@ export default function Features() {
           </div>
 
             {/* Card-4 */}
-            <div className="flex flex-col items-center p-6 space-y-3 text-center bg-gray-100 border border-slate-200 dark:border-slate-700 hover:bg-slate-200 hover:dark:bg-gray-900 duration-300 rounded-xl dark:bg-gray-800">
+            <div className="flex flex-col items-center p-6 space-y-3 text-center bg-gray-100 border border-slate-200 dark:border-slate-700 hover:bg-slate-200 hover:border hover:border-gray-300 hover:dark:bg-gray-900 duration-300 rounded-xl dark:bg-gray-800">
             <span>
             <FontAwesomeIcon icon={faDatabase} className="bg-indigo-200 dark:bg-indigo-500 rounded-full w-6 h-6 p-3 text-indigo-500 dark:text-slate-200"/>
             </span>
@@ -182,7 +184,7 @@ export default function Features() {
           </div>
 
             {/* Card-5 */}
-            <div className="flex flex-col items-center p-6 space-y-3 text-center bg-gray-100 border border-slate-200 dark:border-slate-700 hover:bg-slate-200 hover:dark:bg-gray-900 duration-300 rounded-xl dark:bg-gray-800">
+            <div className="flex flex-col items-center p-6 space-y-3 text-center bg-gray-100 border border-slate-200 dark:border-slate-700 hover:bg-slate-200 hover:border hover:border-gray-300 hover:dark:bg-gray-900 duration-300 rounded-xl dark:bg-gray-800">
             <span>
             <FontAwesomeIcon icon={faWrench} className="bg-indigo-200 dark:bg-indigo-500 rounded-full w-6 h-6 p-3 text-indigo-500 dark:text-slate-200"/>
             </span>
@@ -225,7 +227,7 @@ export default function Features() {
           </div>
 
             {/* Card-6 */}
-            <div className="flex flex-col items-center p-6 space-y-3 text-center bg-gray-100 border border-slate-200 dark:border-slate-700 hover:bg-slate-200 hover:dark:bg-gray-900 duration-300 rounded-xl dark:bg-gray-800">
+            <div className="flex flex-col items-center p-6 space-y-3 text-center bg-gray-100 border border-slate-200 dark:border-slate-700 hover:bg-slate-200 hover:border hover:border-gray-300 hover:dark:bg-gray-900 duration-300 rounded-xl dark:bg-gray-800">
             <span>
             <FontAwesomeIcon icon={faPoundSign} className="bg-indigo-200 dark:bg-indigo-500 rounded-full w-6 h-6 p-3 text-indigo-500 dark:text-slate-200"/>
             </span>
