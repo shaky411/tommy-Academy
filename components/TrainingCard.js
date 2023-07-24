@@ -9,9 +9,8 @@ import BertieModal from "./BertieModal";
 
 export default function TrainingCard() {
   return (
-    <div className=" m-10 p-6 grid grid-cols-1 md:grid-cols-2 gap-5 max-w-[1000px]">
-
-<div className="flex flex-col items-center p-6 space-y-3 text-center bg-slate-100 border border-slate-300 dark:border-slate-700 hover:border hover:border-gray-300 hover:dark:bg-gray-900 duration-300 rounded-xl dark:bg-gray-800">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-[1000px] px-6 py-10">
+      <div className="flex flex-col items-center p-6 space-y-6 text-center bg-slate-100 border border-slate-300 dark:border-slate-700 hover:border hover:border-gray-300 hover:dark:bg-gray-900 duration-300 rounded-xl dark:bg-gray-800">
         <Image
           className="rounded-full bg-orange-300 shadow-md p-2"
           src={ProfilePicture2}
@@ -33,8 +32,8 @@ export default function TrainingCard() {
 
         <BertieModal />
       </div>
-      
-      <div className="flex flex-col items-center p-6 space-y-3 text-center bg-slate-100 border border-slate-300 dark:border-slate-800 hover:border hover:border-gray-300 hover:dark:bg-gray-900 duration-300 rounded-xl dark:bg-gray-800">
+
+      <div className="flex flex-col items-center p-6 space-y-6 text-center bg-slate-100 border border-slate-300 dark:border-slate-800 hover:border hover:border-gray-300 hover:dark:bg-gray-900 duration-300 rounded-xl dark:bg-gray-800">
         <Image
           className="rounded-full bg-indigo-300 shadow-md p-2"
           src={ProfilePicture}
@@ -56,6 +55,8 @@ export default function TrainingCard() {
 
         <MarcModal />
       </div>
+
+      
     </div>
   );
 }

@@ -2,7 +2,9 @@ import React from "react";
 import { InlineWidget } from "react-calendly";
 
 export default function Modal() {
+
   const [showModal, setShowModal] = React.useState(false);
+  
   return (
     <>
       <button
@@ -12,6 +14,7 @@ export default function Modal() {
       >
         Book
       </button>
+
       {showModal ? (
         <>
           <div
