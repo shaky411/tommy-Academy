@@ -17,7 +17,7 @@ export default function AccordianItem({open, toggle, title, desc}) {
             <div className="bg-white rounded-t-lg shadow-lg text-slate-800 py-[25px] px-[50px] flex justify-between items-center cursor-pointer" onClick={toggle}>
                 <p className="text-md md:text-xl font-semibold">{title}</p>
                 <div className="text-[30px]">
-                    {open ? <FontAwesomeIcon icon={faAngleUp} className="rounded w-4 h-4 p-1 text-rose-400 dark:text-slate-200"/> : <FontAwesomeIcon icon={faAngleDown} className="bg-slate-100 rounded w-4 h-4 p-1 text-slate-400 dark:text-slate-200"/>}
+                    {open ? <FontAwesomeIcon icon={faAngleUp} className="rounded ml-1 w-4 h-4 p-1 text-rose-400 dark:text-slate-200"/> : <FontAwesomeIcon icon={faAngleDown} className="bg-slate-100 ml-1 rounded w-4 h-4 p-1 text-slate-400 dark:text-slate-200"/>}
                 </div>
             </div>
 
