@@ -2,12 +2,6 @@
 
 import React, { useState } from "react";
 import AccordianItem from "@/components/AccordianItem";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-
-import {
-  faPlusCircle
-} from "@fortawesome/free-solid-svg-icons";
 
 
 export default function Faq() {
@@ -38,7 +32,7 @@ export default function Faq() {
     ]
 
     return (
-        <section className="bg-slate-500 h-screen grid place-items-center">
+        <section className="bg-slate-500 min-h-screen grid place-items-center pb-20">
             <div className="px-[40px] max-w-[800px] flex flex-col justify-center items-center">
 
             <h1 className="mb-20 text-3xl md:text-4xl">Frequently asked questions</h1>
