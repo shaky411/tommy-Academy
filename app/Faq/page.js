@@ -35,7 +35,7 @@ export default function Faq() {
         <section className="bg-slate-500 min-h-screen grid place-items-center pb-20">
             <div className="px-[40px] max-w-[800px] flex flex-col justify-center items-center">
 
-            <h1 className="mb-20 text-3xl md:text-4xl">Frequently asked questions</h1>
+            <h1 className="my-20 text-3xl md:text-4xl text-center">Frequently asked questions</h1>
 
             {accordianData.map((data, index) => {
                 return <AccordianItem key={index} open={index === open} title={data.title} desc={data.desc} toggle={() =>toggle(index)} />;
