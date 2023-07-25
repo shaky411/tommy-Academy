@@ -1,14 +1,20 @@
 import React from "react";
 import { InlineWidget } from "react-calendly";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+
+import {
+  faXmarkCircle
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function Modal() {
 
   const [showModal, setShowModal] = React.useState(false);
-  
+
   return (
     <>
       <button
-        className="bg-slate-500 hover:bg-slate-800 duration-300 w-full text-white active:bg-pink-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all"
+        className="bg-slate-500 hover:bg-slate-800 duration-300 w-full text-white font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all"
         type="button"
         onClick={() => setShowModal(true)}
       >
@@ -34,11 +40,11 @@ export default function Modal() {
                 {/*footer*/}
                 <div className="flex items-center justify-end p-6 border-t border-solid border-slate-200 rounded-b">
                   <button
-                    className="text-red-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                    className="text-red-500 background-transparent font-bold uppercase px-6 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                     type="button"
                     onClick={() => setShowModal(false)}
                   >
-                    Close
+                    <FontAwesomeIcon icon={faXmarkCircle} className="bg-rose-100 dark:bg-indigo-500 rounded-full w-6 h-6 p-2 text-rose-500 dark:text-slate-200"/>
                   </button>
                 </div>
               </div>
