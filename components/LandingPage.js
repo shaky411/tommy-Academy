@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 
 export default function LandingPage() {
   return (
-    <div className="flex flex-col p-6">
+    <div className="flex flex-col px-6">
     <div className="flex flex-col justify-center items-center min-h-screen">
       <Image
         src={Logo}
@@ -39,23 +39,7 @@ export default function LandingPage() {
       
     </div>
 
-<div className="mb-10 flex flex-col p-10">
-<span className=" text-gray-500 text-sm text-center">
-&copy; 2023 All Rights Reserved, TommyTrinder.com Ltd
-</span>
-<div className="flex items-center justify-center">
-{/* <FontAwesomeIcon className="text-yellow-500 text-lg mr-1" icon={faLocationDot} /> */}
-<Link
-  href="https://www.tommytrinder.com"
-  target="_blank"
-  rel="noopener noreferrer nofollow"
-  className="text-sm my-4 text-center text-gray-400"
->
-  Framepoint® Technology is a registered trademark of TommyTrinder.com
-  Ltd. Pat.Pend.
-</Link>
-</div>
-</div>
+
 
 </div>
   );
