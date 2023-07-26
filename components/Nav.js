@@ -98,12 +98,12 @@ export default function Nav() {
                   </Link>
                 </li>
                 <li className="text-lg mx-3 text-slate-600 dark:text-white sm:text-slate-600 sm:dark:text-slate-100 md:hover:text-indigo-500 hover:text-slate-100 md:hover:dark:text-indigo-500 text-center hover:bg-indigo-500 rounded-md py-4 md:py-0 md:hover:bg-transparent">
-                  <Link href="/Home" onClick={() => setNavbar(!navbar)}>
+                  <Link href="/Tutorials" onClick={() => setNavbar(!navbar)}>
                     Tutorials
                   </Link>
                 </li>
                 <li className="text-lg mx-3 text-slate-600 dark:text-white sm:text-slate-600 sm:dark:text-slate-100 md:hover:text-indigo-500 hover:text-slate-100 md:hover:dark:text-indigo-500 text-center hover:bg-indigo-500 rounded-md py-4 md:py-0 md:hover:bg-transparent">
-                  <Link href="/Home" onClick={() => setNavbar(!navbar)}>
+                  <Link href="/Resources" onClick={() => setNavbar(!navbar)}>
                     Resources
                   </Link>
                 </li>
