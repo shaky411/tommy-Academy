@@ -12,7 +12,7 @@ export default function BertieModal() {
   return (
     <>
       <button
-        className="bg-slate-500 hover:bg-slate-800 duration-300 w-full text-white font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all"
+        className="bg-slate-500 cursor-pointer hover:bg-slate-800 duration-300 w-full text-white font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all"
         type="button"
         onClick={() => setShowModal(true)}
       >
@@ -21,7 +21,7 @@ export default function BertieModal() {
       {showModal ? (
         <>
           <div
-            className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none pt-20"
+            className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none pt-20 h-full"
           >
             <div className="relative w-[800px] max-w-3xl p-10">
               {/*content*/}
@@ -41,7 +41,7 @@ export default function BertieModal() {
                     type="button"
                     onClick={() => setShowModal(false)}
                   >
-                    <FontAwesomeIcon icon={faXmarkCircle} className="bg-rose-100 dark:bg-indigo-500 rounded-full w-6 h-6 p-2 text-rose-500 dark:text-slate-200"/>
+                    <FontAwesomeIcon icon={faXmarkCircle} className="bg-rose-100 dark:bg-indigo-500 rounded-full w-6 h-6 p-1 text-rose-500 dark:text-slate-200"/>
                   </button>
                 </div>
               </div>

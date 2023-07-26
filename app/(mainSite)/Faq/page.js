@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import AccordianItem from "@/components/AccordianItem";
+import { motion } from "framer-motion";
 
 
 export default function Faq() {
@@ -43,7 +44,13 @@ export default function Faq() {
         <section className="bg-slate-500 min-h-screen flex justify-center items-start pb-20">
             <div className="px-[40px] max-w-[800px] flex flex-col justify-center items-center">
 
+            <motion.div
+                initial={{ opacity:0 }}
+                animate={{ opacity:1 }}
+                transition={{ duration: 2.5, delay: 0.2 }}
+            >
             <h1 className="mt-20 mb-4 font-sans text-6xl sm:text-8xl font-bold tracking-tight text-slate-100 sm:leading-none text-center">FAQ</h1>
+            </motion.div>
             <p className="mb-10 text-center">These are some frequently asked questions from our users</p>
 
             {accordianData.map((data, index) => {

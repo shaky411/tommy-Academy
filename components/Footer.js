@@ -18,7 +18,7 @@ import {
 
 export default function Footer() {
   return (
-    <footer className="bg-[#062D3C] text-gray-400 flex flex-col justify-center items-center h-30 shadow-t-lg text-lg p-20">
+    <footer className="bg-[#062D3C] text-gray-400 flex flex-col justify-center items-center h-30 shadow-t-lg text-lg p-10">
       <div className="">
         <Link
           href="/"
