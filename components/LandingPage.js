@@ -5,10 +5,11 @@ import Link from "next/link";
 import Image from "next/image";
 import Logo from "../assets/tommy_Round.png";
 import { motion } from "framer-motion";
+import AnimatedTabs from "./AnimatedTabs";
 
 export default function LandingPage() {
   return (
-    <div className="flex flex-col px-6">
+    <div className="flex flex-col px-6 bg-gray-950">
     <div className="flex flex-col justify-center items-center min-h-screen">
 
         <motion.div
@@ -44,11 +45,16 @@ transition={{ duration: 2.5, delay: 4.5 }}
 >
       <Link
         href="/Home"
-        className="text-lg font-bold bg-white duration-300 hover:bg-slate-700 px-4 py-1 w-[150px] text-center text-slate-800 hover:text-slate-100 rounded"
+        className="text-lg font-bold bg-white duration-300 hover:bg-slate-700 px-6 py-2 w-[150px] text-center text-slate-800 hover:text-slate-100 rounded-full"
       >
         Enter
       </Link>
       </motion.div>
+
+{/* <div className="">
+<AnimatedTabs />
+</div> */}
+      
 
       
     </div>

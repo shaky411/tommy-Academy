@@ -2,6 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
+import AnimatedTabs from "@/components/AnimatedTabs";
 
 export default function Resources() {
     return (
@@ -13,7 +14,9 @@ export default function Resources() {
             >
       <h1 className="mt-20 mb-4 font-sans text-6xl sm:text-8xl font-bold tracking-tight text-slate-100 sm:leading-none">Resources</h1>
       </motion.div>
-            <p className="mb-10 text-center">This is the latest news from the world of Framepoint</p>
+            
+
+            <AnimatedTabs />
       
     </div>
     )
