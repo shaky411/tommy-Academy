@@ -33,13 +33,13 @@ export default function Hero() {
           </div>
           <div className="flex">
           <Link
-                href="/"
+                href="/Tutorials"
                 className="mr-2 w-full sm:w-[150px] inline-flex items-center justify-center h-11 px-4 font-bold tracking-wide text-slate-200 duration-300 rounded shadow-md bg-slate-500 hover:bg-slate-900 focus:shadow-outline focus:outline-none"
               >
                 Tutorials
               </Link>
               <Link
-                href="/"
+                href="/Resources"
                 className="w-full sm:w-[150px] inline-flex items-center justify-center h-11 px-4 font-bold tracking-wide text-slate-800 hover:text-slate-200 duration-300 rounded shadow-md bg-green-400 hover:bg-green-900 focus:shadow-outline focus:outline-none"
               >
                 Resources
