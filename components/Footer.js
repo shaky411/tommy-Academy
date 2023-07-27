@@ -21,7 +21,7 @@ export default function Footer() {
     <footer className="bg-[#062D3C] text-gray-400 flex flex-col justify-center items-center h-30 shadow-t-lg text-lg p-10">
       <div className="">
         <Link
-          href="/"
+          href="/Home"
         >
           <FontAwesomeIcon
             className="hover:text-green-500 text-2xl hover:scale-125 duration-300"

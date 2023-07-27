@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 export default function Training() {
   return (
     <div className="bg-slate-500 min-h-screen flex flex-col justify-start items-center pb-20">
-      <div className="flex  flex-col justify-center items-center p-10">
+      <div className="flex px-10 flex-col justify-center items-center">
         <motion.div
           initial={{ opacity:0 }}
           animate={{ opacity:1 }}
