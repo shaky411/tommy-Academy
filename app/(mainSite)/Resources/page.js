@@ -3,6 +3,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import AnimatedTabs from "@/components/AnimatedTabs";
+import Login from "@/components/Login";
 
 export default function Resources() {
     return (
@@ -17,6 +18,7 @@ export default function Resources() {
             
 
             <AnimatedTabs />
+            {/* <Login /> */}
       
     </div>
     )

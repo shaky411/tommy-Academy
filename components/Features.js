@@ -44,15 +44,11 @@ export default function Features() {
             </h1>
 
             <p className="text-gray-500 dark:text-gray-300">
-              Tailwind CSS offers a flexible and efficient approach to styling
-              websites and applications, allowing developers to create custom
-              designs quickly and maintainable code. Its utility-first approach,
-              customization options, and responsive design system make it a
-              popular choice among developers.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit libero dolores totam aliquid. Officiis molestias delectus veritatis ea recusandae odit neque ab non assumenda fuga. Quo, molestiae odio sequi tenetur adipisci fuga, rem dolores voluptatum quibusdam minus nam ullam magnam.
             </p>
 
             <Link
-              href="/Blog"
+              href="/Home"
               className="flex items-center -mx-1 text-sm text-blue-500 capitalize transition-colors duration-300 transform dark:text-blue-400 hover:underline hover:text-blue-600 dark:hover:text-blue-500"
             >
               <span className="mx-1">read more</span>
@@ -82,14 +78,11 @@ export default function Features() {
             </h1>
 
             <p className="text-gray-500 dark:text-gray-300">
-              Next.js combines the power of React with server-side rendering and
-              static site generation, providing a performant, scalable, and
-              developer-friendly environment for building websites and web
-              applications.
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus quod tenetur quam quisquam. Earum, expedita. Amet odio consequatur necessitatibus dicta cumque, explicabo minima deleniti ipsa?
             </p>
 
             <Link
-              href="/Blog"
+              href="/Home"
               className="flex items-center -mx-1 text-sm text-blue-500 capitalize transition-colors duration-300 transform dark:text-blue-400 hover:underline hover:text-blue-600 dark:hover:text-blue-500"
             >
               <span className="mx-1">read more</span>
@@ -119,14 +112,11 @@ export default function Features() {
             </h1>
 
             <p className="text-gray-500 dark:text-gray-300">
-              Simplicity and cleanliness in web design should not sacrifice
-              functionality or accessibility. We aim for designs that are
-              visually appealing, user-friendly, and align with the purpose and
-              goals of your website or application.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, hic?
             </p>
 
             <Link
-              href="/Blog"
+              href="/Home"
               className="flex items-center -mx-1 text-sm text-blue-500 capitalize transition-colors duration-300 transform dark:text-blue-400 hover:underline hover:text-blue-600 dark:hover:text-blue-500"
             >
               <span className="mx-1">read more</span>
@@ -156,15 +146,11 @@ export default function Features() {
             </h1>
 
             <p className="text-gray-500 dark:text-gray-300">
-              Strapi is a headless CMS used to develop websites, mobile
-              applications, eCommerce sites, and APIs. It allows you to create
-              an API without knowing anything about the backend or databases.
-              The system builds APIs based on content models automatically,
-              making it easy to view data in the CMS with Strapi examples.
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit doloremque amet fuga numquam nam atque earum dolores ducimus libero expedita iusto totam, quod cupiditate exercitationem iste unde, similique, dolor magni doloribus culpa at eaque repudiandae? Quaerat ex aperiam totam repellendus sed numquam et dolorum vel eius repudiandae. Optio, sit nemo.
             </p>
 
             <Link
-              href="/Blog"
+              href="/Home"
               className="flex items-center -mx-1 text-sm text-blue-500 capitalize transition-colors duration-300 transform dark:text-blue-400 hover:underline hover:text-blue-600 dark:hover:text-blue-500"
             >
               <span className="mx-1">read more</span>
@@ -194,20 +180,14 @@ export default function Features() {
             </h1>
 
             <p className="text-gray-500 dark:text-gray-300">
-              Achieving a truly "zero maintenance" web design may be difficult
-              since all websites require some level of maintenance and updates.
-              However, we adopt certain practices and technologies to minimize
-              maintenance efforts.
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio architecto repellendus illo recusandae assumenda possimus veniam aliquid tempora, quam ut.
               <br />
               <br />
-              Keep in mind that some level of ongoing maintenance, monitoring,
-              and occasional updates will still be necessary to ensure your
-              website remains secure, functional, and aligned with evolving
-              standards and technologies.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, pariatur.
             </p>
 
             <Link
-              href="/Blog"
+              href="/Home"
               className="flex items-center -mx-1 text-sm text-blue-500 capitalize transition-colors duration-300 transform dark:text-blue-400 hover:underline hover:text-blue-600 dark:hover:text-blue-500"
             >
               <span className="mx-1">read more</span>
@@ -237,14 +217,11 @@ export default function Features() {
             </h1>
 
             <p className="text-gray-500 dark:text-gray-300">
-              Remember, while cost-effective web design is important, it's
-              essential to balance affordability with the quality,
-              functionality, and scalability required for your website to
-              achieve its goals.
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid dolore corporis est? Recusandae inventore, perspiciatis magni minus deserunt illum corporis consectetur pariatur qui exercitationem modi!
             </p>
 
             <Link
-              href="/Blog"
+              href="/Home"
               className="flex items-center -mx-1 text-sm text-blue-500 capitalize transition-colors duration-300 transform dark:text-blue-400 hover:underline hover:text-blue-600 dark:hover:text-blue-500"
             >
               <span className="mx-1">read more</span>

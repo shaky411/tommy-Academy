@@ -12,7 +12,7 @@ export default function BertieModal() {
   return (
     <>
       <button
-        className="bg-slate-500 cursor-pointer hover:bg-slate-800 duration-300 w-full text-white font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all"
+        className="bg-indigo-500 cursor-pointer hover:bg-slate-800 duration-300 w-full text-white font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all"
         type="button"
         onClick={() => setShowModal(true)}
       >
